@@ -20,8 +20,8 @@ function App() {
           <button onClick={() => setColor("pink")} class="btn btn4">
             Pink
           </button>
-          <button onClick={() => setColor("skyblue")} class="btn btn5">
-            Sky Blue
+          <button onClick={() => setColor("black")} class="btn btn5">
+            Black
           </button>
         </div>
       </footer>

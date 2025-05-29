@@ -19,6 +19,7 @@ footer{
   justify-content: center;
 }
 .btn{
+  color: white;
   border-radius: 10px;
   margin: 10px;
 }
@@ -30,10 +31,12 @@ footer{
 }
 .btn3{
   background-color: yellow;
+  color: black;
 }
 .btn4{
+  color: black;
   background-color: pink;
 }
 .btn5{
-  background-color: skyblue;
+  background-color: black;
 }
