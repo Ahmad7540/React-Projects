@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.container{
+  width: 50%;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+h1{
+text-align: center;
+margin-top: 1rem;
+}
+.inpBox{
+  margin-top: 0.5rem;
+display: flex;  
+justify-content: center;
+align-items: center;
+}
+input{
+  width: 50%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  border: none;
+  
+}
+.copyBtn{
+  outline: none;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: skyblue;
+  cursor: pointer;
+}
+
+input,.copyBtn{
+  padding: 0.5rem;
+}
+.feacture{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.feacture div{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.feacture input{
+  cursor: pointer;
+}
